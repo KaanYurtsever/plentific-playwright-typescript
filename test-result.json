@@ -1,0 +1,239 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": [
+      {},
+      {}
+    ],
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/kaan/Desktop/plentfic-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "C:/Users/kaan/Desktop/plentfic-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "managementBook.test.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ],
+      [
+        "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/Users/kaan/Desktop/plentfic-playwright",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.1",
+    "workers": 4,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "C:\\Users\\kaan\\Desktop\\plentfic-playwright",
+    "_configDir": "C:\\Users\\kaan\\Desktop\\plentfic-playwright",
+    "_testGroupsCount": 1,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "tests\\managementBook.test.ts",
+      "file": "tests/managementBook.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Management Pages Tests",
+          "file": "tests/managementBook.test.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Book a demo @reg",
+              "ok": true,
+              "tags": [
+                "reg"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 24209,
+                      "stdout": [
+                        {
+                          "text": "title: Demo | Repairs Manager | Plentific platform for property repairs, management and maintenance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "User should go to URL",
+                          "duration": 9012
+                        },
+                        {
+                          "title": "User should accept cookies",
+                          "duration": 1737
+                        },
+                        {
+                          "title": "User should go to Work Order Management Page",
+                          "duration": 4456
+                        },
+                        {
+                          "title": "User should try to go book a demo page",
+                          "duration": 5257
+                        },
+                        {
+                          "title": "User shouldn't book a demo",
+                          "duration": 940
+                        }
+                      ],
+                      "startTime": "2022-10-14T12:18:23.953Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\test-results\\tests-managementBook-Management-Pages-Tests-Book-a-demo-reg\\video-1.webm"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\test-results\\tests-managementBook-Management-Pages-Tests-Book-a-demo-reg\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\test-results\\tests-managementBook-Management-Pages-Tests-Book-a-demo-reg\\test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\test-results\\tests-managementBook-Management-Pages-Tests-Book-a-demo-reg\\test-finished-2.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "18eb550f87735f61ba60-6d5741935d7cd283fa4f",
+              "file": "tests/managementBook.test.ts",
+              "line": 5,
+              "column": 5
+            },
+            {
+              "title": "Book a callback @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 19692,
+                      "stdout": [
+                        {
+                          "text": "title: Callback | Voids Manager | Plentific platform for property repairs, management and maintenance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "User should go to URL",
+                          "duration": 5496
+                        },
+                        {
+                          "title": "User should accept cookies",
+                          "duration": 1471
+                        },
+                        {
+                          "title": "User should go to Voids Management Page",
+                          "duration": 7118
+                        },
+                        {
+                          "title": "User should try to go book a callback page",
+                          "duration": 1776
+                        },
+                        {
+                          "title": "User shouldn't book a callback",
+                          "duration": 2003
+                        }
+                      ],
+                      "startTime": "2022-10-14T12:18:50.223Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\test-results\\tests-managementBook-Management-Pages-Tests-Book-a-callback-smoke\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\test-results\\tests-managementBook-Management-Pages-Tests-Book-a-callback-smoke\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "18eb550f87735f61ba60-4915940313f9c822efa5",
+              "file": "tests/managementBook.test.ts",
+              "line": 32,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
