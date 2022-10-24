@@ -21,7 +21,21 @@ jobs:
        - name: Install dependencies
          run: npm install
          
+       - name: Install browsers
+         run: npx playwright install
+         
        - name: Run tests
          run: npm run github-action
+         
+       - name: push artifacts
+         if: always()
+         uses: actions/upload-artifact@v2
+         with:
+           name: my-artifact
+           path: |
+            playwright-report/**
+            test-results/**
+           if-no-file-found: error
+           retention-days: 60
          
   
