@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
         headless: true,
         browserName: "chromium"
     },
-    testMatch: ["amazonprice.managementBook.test.ts"],
+    testMatch: ["managementBook.test.ts"],
     retries: 1
 }
 export default config;
