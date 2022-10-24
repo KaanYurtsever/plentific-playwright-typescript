@@ -6,3 +6,6 @@ html-report/
 Downloads/
 html-report.zip/
 .idea
+playwright-report
+test-result.json
+report.zip

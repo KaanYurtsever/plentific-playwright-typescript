@@ -3,7 +3,7 @@
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
-    "globalTeardown": null,
+    "globalTeardown": "C:\\Users\\kaan\\Desktop\\plentfic-playwright\\global-teardown.ts",
     "globalTimeout": 0,
     "grep": [
       {},
@@ -98,7 +98,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 24209,
+                      "duration": 35000,
                       "stdout": [
                         {
                           "text": "title: Demo | Repairs Manager | Plentific platform for property repairs, management and maintenance\n"
@@ -109,26 +109,26 @@
                       "steps": [
                         {
                           "title": "User should go to URL",
-                          "duration": 9012
+                          "duration": 6039
                         },
                         {
                           "title": "User should accept cookies",
-                          "duration": 1737
+                          "duration": 2418
                         },
                         {
                           "title": "User should go to Work Order Management Page",
-                          "duration": 4456
+                          "duration": 7257
                         },
                         {
                           "title": "User should try to go book a demo page",
-                          "duration": 5257
+                          "duration": 6223
                         },
                         {
                           "title": "User shouldn't book a demo",
-                          "duration": 940
+                          "duration": 2481
                         }
                       ],
-                      "startTime": "2022-10-14T12:18:23.953Z",
+                      "startTime": "2022-10-24T20:36:35.985Z",
                       "attachments": [
                         {
                           "name": "video",
@@ -177,7 +177,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 19692,
+                      "duration": 23821,
                       "stdout": [
                         {
                           "text": "title: Callback | Voids Manager | Plentific platform for property repairs, management and maintenance\n"
@@ -188,26 +188,26 @@
                       "steps": [
                         {
                           "title": "User should go to URL",
-                          "duration": 5496
+                          "duration": 10305
                         },
                         {
                           "title": "User should accept cookies",
-                          "duration": 1471
+                          "duration": 1912
                         },
                         {
                           "title": "User should go to Voids Management Page",
-                          "duration": 7118
+                          "duration": 4970
                         },
                         {
                           "title": "User should try to go book a callback page",
-                          "duration": 1776
+                          "duration": 2188
                         },
                         {
                           "title": "User shouldn't book a callback",
-                          "duration": 2003
+                          "duration": 2545
                         }
                       ],
-                      "startTime": "2022-10-14T12:18:50.223Z",
+                      "startTime": "2022-10-24T20:37:17.320Z",
                       "attachments": [
                         {
                           "name": "video",

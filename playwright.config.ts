@@ -25,6 +25,6 @@ const config: PlaywrightTestConfig = {
         }],// -> HTML
         ['experimental-allure-playwright']
     ],
-    //globalTeardown: './global-setup.ts'
+    globalTeardown: './global-teardown.ts'
 }
 export default config;

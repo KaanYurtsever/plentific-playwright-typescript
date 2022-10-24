@@ -1,11 +1,12 @@
 import path from 'path';
 import AdmZip from 'adm-zip';
+import {FullConfig} from "@playwright/test";
 
-async function globalTeardown() {
-    const reportPath = path.join(__dirname, `html-report`);
+async function globalTeardown(config: FullConfig) {
+    const reportPath = config.rootDir + '\\playwright-report';
     const zip = new AdmZip();
-    zip.addLocalFolder(reportPath, `./html-report`);
-    zip.writeZip(`./html-report.zip`);
+    zip.addLocalFolder(reportPath, `./playwrightReport`);
+    zip.writeZip(`./report.zip`);
 }
 
 export default globalTeardown;
