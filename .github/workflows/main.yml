@@ -7,15 +7,21 @@ on:
 jobs:
    e2e-tests:
      runs-on: windows-latest # or macos-latest, ubuntu-latest
-     environment: cred
+ 
      steps:
        - uses: actions/checkout@v2
-       - uses: actions/setup-node@v1
+       
+       - name: Install Node.js
+         uses: actions/setup-node@v3
+         with:
+            node-version: lts/*
+       
        - uses: microsoft/playwright-github-action@v1
+       
        - name: Install dependencies
          run: npm install
+         
        - name: Run tests
          run: npm run github-action
-         env:
-           MY_EMAIL: ${{ secrets.MY_EMAIL }}
-           MY_PASS: ${{ secrets.MY_PASS }}
+         
+  
