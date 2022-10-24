@@ -5,7 +5,7 @@ const config: PlaywrightTestConfig = {
 
     use: {
         viewport: null,
-        headless: false,
+        headless: true,
         screenshot: "on",
         video: "on",
         trace: "retain-on-failure",
